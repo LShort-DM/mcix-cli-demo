@@ -1,0 +1,593 @@
+{
+  "project_name" : "electromart",
+  "project_id" : "f7ea2345-b49d-489f-b2ec-0669daa3c178",
+  "created_by" : "lance",
+  "environment" : "cp4d",
+  "services_info" : [ {
+    "name" : "ds-canvas",
+    "version" : "530.0.21"
+  }, {
+    "name" : "ds-cas-lite",
+    "version" : "530.0.5"
+  }, {
+    "name" : "ds-codegen",
+    "version" : "530.0.21"
+  }, {
+    "name" : "ds-flow-runtime",
+    "version" : "530.0.8"
+  }, {
+    "name" : "ds-flows",
+    "version" : "530.0.21"
+  }, {
+    "name" : "ds-migration",
+    "version" : "530.0.9"
+  }, {
+    "name" : "ds-px-runtime",
+    "version" : "530.0.33"
+  }, {
+    "name" : "DSAssets",
+    "version" : "530.0.5"
+  }, {
+    "name" : "qs-ruleset",
+    "version" : "530.0.5"
+  } ],
+  "assets" : [ {
+    "name" : "default_datastage_px",
+    "type" : "environment"
+  }, {
+    "name" : "f7ea2345-b49d-489f-b2ec-0669daa3c178-DataStage_settings",
+    "type" : "data_intg_project_settings"
+  }, {
+    "name" : "factfinance.ds",
+    "type" : "data_intg_data_set"
+  }, {
+    "name" : "LdDailySalesSummary",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdDailySalesSummary",
+    "name" : "LdDailySalesSummary",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdDailySalesSummary.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdDimCustomer",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdDimCustomer",
+    "name" : "LdDimCustomer",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdDimCustomer.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdDimDate",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdDimDate",
+    "name" : "LdDimDate",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdDimDate.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdDimProduct",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdDimProduct",
+    "name" : "LdDimProduct",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdDimProduct.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdDimSupplier",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdDimSupplier",
+    "name" : "LdDimSupplier",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdDimSupplier.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdFactFinance",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdFactFinance",
+    "name" : "LdFactFinance",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdFactFinance.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdFactSales",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdFactSales",
+    "name" : "LdFactSales",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdFactSales.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdProductPerformance",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdProductPerformance",
+    "name" : "LdProductPerformance",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdProductPerformance.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdQuarterlyFinancials",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdQuarterlyFinancials",
+    "name" : "LdQuarterlyFinancials",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdQuarterlyFinancials.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdRefUSStates",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdRefUSStates",
+    "name" : "LdRefUSStates",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdRefUSStates.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdRegionSalesSummary",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdRegionSalesSummary",
+    "name" : "LdRegionSalesSummary",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdRegionSalesSummary.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdStgCustomer",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdStgCustomer",
+    "name" : "LdStgCustomer",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdStgCustomer.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdStgFinance",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdStgFinance",
+    "name" : "LdStgFinance",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdStgFinance.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdStgProduct",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdStgProduct",
+    "name" : "LdStgProduct",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdStgProduct.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdStgSales",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdStgSales",
+    "name" : "LdStgSales",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdStgSales.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "LdStgSupplier",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "LdStgSupplier",
+    "name" : "LdStgSupplier",
+    "type" : "px_executables"
+  }, {
+    "name" : "LdStgSupplier.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "psDatabaseConnect",
+    "type" : "parameter_set"
+  }, {
+    "name" : "psGlobal",
+    "type" : "parameter_set"
+  }, {
+    "name" : "RDS postgres-dev_cp4d",
+    "type" : "connection"
+  }, {
+    "name" : "S3TestDataConnection",
+    "type" : "connection"
+  }, {
+    "name" : "ScdDimCustomerDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "ScdDimCustomerDs",
+    "name" : "ScdDimCustomerDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "ScdDimCustomerDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "ScdDimProductDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "ScdDimProductDs",
+    "name" : "ScdDimProductDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "ScdDimProductDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "ScdDimSupplierDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "ScdDimSupplierDs",
+    "name" : "ScdDimSupplierDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "ScdDimSupplierDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "scRegionReference",
+    "type" : "data_intg_subflow"
+  }, {
+    "name" : "Trial job - UpdateAllSurrogateKeys",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdDailySalesSummary",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdDimCustomer",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdDimProduct",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdDimSupplier",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdFactFinance",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdFactSales",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdProductPerformance",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdQuarterlyFinancials",
+    "type" : "job"
+  }, {
+    "name" : "Trial job - UpdRegionSalesSummary",
+    "type" : "job"
+  }, {
+    "name" : "TxCreateDateSource",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxCreateDateSource",
+    "name" : "TxCreateDateSource",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxCreateDateSource.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxDailySalesSummaryDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxDailySalesSummaryDs",
+    "name" : "TxDailySalesSummaryDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxDailySalesSummaryDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxFactFinanceDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxFactFinanceDs",
+    "name" : "TxFactFinanceDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxFactFinanceDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxFactFinanceDsBAK",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxFactFinanceDsBAK",
+    "name" : "TxFactFinanceDsBAK",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxFactFinanceDsBAK.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxFactSalesDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxFactSalesDs",
+    "name" : "TxFactSalesDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxFactSalesDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxFctFinDs",
+    "type" : "data_intg_test_case"
+  }, {
+    "name" : "TxProductPerformanceDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxProductPerformanceDs",
+    "name" : "TxProductPerformanceDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxProductPerformanceDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxQuarterlyFinancialsDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxQuarterlyFinancialsDs",
+    "name" : "TxQuarterlyFinancialsDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxQuarterlyFinancialsDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxRegionSalesSummaryDs",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxRegionSalesSummaryDs",
+    "name" : "TxRegionSalesSummaryDs",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxRegionSalesSummaryDs.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxRegionSalesSummaryDs_container",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxRegionSalesSummaryDs_container",
+    "name" : "TxRegionSalesSummaryDs_container",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxRegionSalesSummaryDs_container.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxTransformedCustomer",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxTransformedCustomer",
+    "name" : "TxTransformedCustomer",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxTransformedCustomer.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxTransformedSales",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxTransformedSales",
+    "name" : "TxTransformedSales",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxTransformedSales.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "TxTransformedSales_container",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "TxTransformedSales_container",
+    "name" : "TxTransformedSales_container",
+    "type" : "px_executables"
+  }, {
+    "name" : "TxTransformedSales_container.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "UpdateAllSurrogateKeys",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdateAllSurrogateKeys.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdateCustomerSurrogateKeys",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "UpdateCustomerSurrogateKeys",
+    "name" : "UpdateCustomerSurrogateKeys",
+    "type" : "px_executables"
+  }, {
+    "name" : "UpdateCustomerSurrogateKeys.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "UpdateFinanceSurrogateKeys",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "UpdateFinanceSurrogateKeys",
+    "name" : "UpdateFinanceSurrogateKeys",
+    "type" : "px_executables"
+  }, {
+    "name" : "UpdateFinanceSurrogateKeys.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "UpdateProductSurrogateKeys",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "UpdateProductSurrogateKeys",
+    "name" : "UpdateProductSurrogateKeys",
+    "type" : "px_executables"
+  }, {
+    "name" : "UpdateProductSurrogateKeys.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "UpdateSalesSurrogateKeys",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "UpdateSalesSurrogateKeys",
+    "name" : "UpdateSalesSurrogateKeys",
+    "type" : "px_executables"
+  }, {
+    "name" : "UpdateSalesSurrogateKeys.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "UpdateSupplierSurrogateKeys",
+    "type" : "data_intg_flow"
+  }, {
+    "location" : "UpdateSupplierSurrogateKeys",
+    "name" : "UpdateSupplierSurrogateKeys",
+    "type" : "px_executables"
+  }, {
+    "name" : "UpdateSupplierSurrogateKeys.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "UpdDailySalesSummary",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdDailySalesSummary.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdDimCustomer",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdDimCustomer.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdDimProduct",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdDimProduct.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdDimSupplier",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdDimSupplier.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdFactFinance",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdFactFinance.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdFactSales",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdFactSales.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdProductPerformance",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdProductPerformance.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdQuarterlyFinancials",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdQuarterlyFinancials.DataStage sequence",
+    "type" : "job"
+  }, {
+    "name" : "UpdRegionSalesSummary",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "UpdRegionSalesSummary.DataStage sequence",
+    "type" : "job"
+  } ],
+  "flow_job_mapping" : [ {
+    "flow" : "LdStgCustomer",
+    "job" : "LdStgCustomer.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "LdStgFinance",
+    "job" : "LdStgFinance.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "LdStgProduct",
+    "job" : "LdStgProduct.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "LdStgSales",
+    "job" : "LdStgSales.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "LdStgSupplier",
+    "job" : "LdStgSupplier.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "ScdDimCustomerDs",
+    "job" : "ScdDimCustomerDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "ScdDimProductDs",
+    "job" : "ScdDimProductDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "ScdDimSupplierDs",
+    "job" : "ScdDimSupplierDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "TxFactFinanceDs",
+    "job" : "TxFactFinanceDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "TxFactSalesDs",
+    "job" : "TxFactSalesDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "TxProductPerformanceDs",
+    "job" : "TxProductPerformanceDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "TxQuarterlyFinancialsDs",
+    "job" : "TxQuarterlyFinancialsDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "TxRegionSalesSummaryDs",
+    "job" : "TxRegionSalesSummaryDs.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "TxTransformedCustomer",
+    "job" : "TxTransformedCustomer.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "TxTransformedSales",
+    "job" : "TxTransformedSales.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "UpdateCustomerSurrogateKeys",
+    "job" : "UpdateCustomerSurrogateKeys.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "UpdateFinanceSurrogateKeys",
+    "job" : "UpdateFinanceSurrogateKeys.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "UpdateProductSurrogateKeys",
+    "job" : "UpdateProductSurrogateKeys.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "UpdateSalesSurrogateKeys",
+    "job" : "UpdateSalesSurrogateKeys.DataStage job",
+    "type" : "data_intg_flow"
+  }, {
+    "flow" : "UpdateSupplierSurrogateKeys",
+    "job" : "UpdateSupplierSurrogateKeys.DataStage job",
+    "type" : "data_intg_flow"
+  } ]
+}
