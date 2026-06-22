@@ -2,16 +2,15 @@
   "metadata" : {
     "name" : "Trial job - UpdRegionSalesSummary",
     "description" : "Trial job and run created for the pipeline: UpdRegionSalesSummary",
-    "asset_id" : "677aeaf6-f3dc-43fd-9990-74ae9e1420f1",
-    "owner_id" : "1000331066",
+    "asset_id" : "5b7853b7-f7f0-458d-9e11-bbe712ef05d5",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "22f2fe47-3ce3-4475-99a0-8572815cee4a",
-      "description" : "Trial job and run created for the pipeline: UpdRegionSalesSummary",
+      "asset_ref" : "4872f433-9be4-42b0-9762-b4d0b13297ce",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "sub_type" : "oflow_trial_run",
@@ -19,7 +18,6 @@
         "env_variables" : [ ]
       },
       "last_run_time" : "deprecated field",
-      "asset_ref_name" : "UpdRegionSalesSummary",
       "asset_ref_type" : "orchestration_flow",
       "last_run_status" : "deprecated field",
       "last_run_initiator" : "deprecated field",

@@ -2,7 +2,7 @@
   "doc_type" : "subpipeline",
   "version" : "3.0",
   "json_schema" : "https://api.dataplatform.ibm.com/schemas/common-pipeline/pipeline-flow/pipeline-flow-v3-schema.json",
-  "id" : "ad0226ef-24fb-4863-94d9-7de47b34cc4f",
+  "id" : "59f23ab3-8e05-4d71-b8c8-4dcc397d46c7",
   "primary_pipeline" : "f990c5f7-bbe8-4765-9fe2-79d5eab0b9ac",
   "pipelines" : [ {
     "id" : "f990c5f7-bbe8-4765-9fe2-79d5eab0b9ac",
@@ -116,7 +116,8 @@
       } ],
       "op" : "ODBCConnectorPX",
       "connection" : {
-        "ref" : "72f937ae-333f-4dbe-a518-1598956e3868",
+        "ref" : "app_defined",
+        "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
         "properties" : {
           "session.schema_reconciliation.fail_on_code_page_mismatch" : false,
           "session.isolation_level" : "read_uncommitted",
@@ -370,7 +371,8 @@
     }
   },
   "external_paramsets" : [ {
-    "ref" : "d4e99c1a-1c73-4f60-8123-0bdac5e94f0f",
+    "ref" : "af8b8547-40f0-4b0c-be6c-cc3b1a9f8387",
+    "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
     "name" : "psDatabaseConnect"
   } ],
   "name" : "scRegionReference"

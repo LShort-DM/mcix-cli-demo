@@ -1,18 +1,17 @@
 {
   "metadata" : {
     "name" : "TxFactFinanceDsBAK.DataStage job",
-    "asset_id" : "ce1ee2a3-6693-4753-bd3f-13f5d32babae",
-    "owner_id" : "1000331066",
+    "asset_id" : "7a8575c9-10f1-40cb-a388-7127e845b923",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "e686dced-9656-498b-99b2-9478aa03b8d6",
+      "asset_ref" : "4e57afa0-57e0-483e-888d-4c9e437c486c",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_id" : "ba5a0fbd-a6e1-4a5b-b88d-4967a465bb8f",
-        "env_type" : "data_intg_flow",
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },

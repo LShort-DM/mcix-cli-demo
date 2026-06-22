@@ -1,14 +1,13 @@
 {
   "datasource_type" : "38714ac2-8f66-4a8c-9b40-806ffb61c759",
-  "data_source_definition_searchable" : "s3.ap-southeast-2.amazonaws.com|443|cp4d-s3-mettleci ",
   "name" : "S3TestDataConnection",
   "flags" : [ "parameterized" ],
   "origin_country" : "us",
   "rov" : {
     "mode" : 0,
     "member_roles" : {
-      "1000331066" : {
-        "user_iam_id" : "1000331066",
+      "1000331062" : {
+        "user_iam_id" : "1000331062",
         "roles" : [ "OWNER" ]
       }
     }

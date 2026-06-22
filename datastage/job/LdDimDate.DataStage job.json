@@ -1,15 +1,15 @@
 {
   "metadata" : {
     "name" : "LdDimDate.DataStage job",
-    "asset_id" : "a142d229-9063-45b6-ab8e-c20104575536",
-    "owner_id" : "1000331066",
+    "asset_id" : "17c52a4e-ee37-4dab-a522-bb33c38e9f30",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "05383d96-eedc-4446-bdfb-e9c6a1122fd7",
+      "asset_ref" : "f754b0cc-e26a-4680-a1bb-46f2f250f79e",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "flow_limits" : {

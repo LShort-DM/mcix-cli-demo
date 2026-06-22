@@ -1,12 +1,13 @@
 datastage
-export
+import
 -url
 https://cpd-dm.apps.stabledev1.dm-dev-cpd.mettleci.cloud
+-assets
+/Users/lanceshort/MyRepos/mcix-cli-demo/datastage
 -project
 mcix-cli-demo
 -user
 lance
 -api-key
 3iOnnwouLwXKY15tX9eFP13RfDhLtYqaoL8mpB6D
--export-path
-/Users/lanceshort/MyRepos/mcix-cli-demo/datastage
+

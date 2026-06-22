@@ -2,16 +2,15 @@
   "metadata" : {
     "name" : "Trial job - UpdDimProduct",
     "description" : "Trial job and run created for the pipeline: UpdDimProduct",
-    "asset_id" : "0ca70254-3f00-4e71-8780-58a694db59d2",
-    "owner_id" : "1000331066",
+    "asset_id" : "0571c7a5-2074-4f13-ad1a-f041f6722efe",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "7f3bb914-de38-49cb-82c1-2133f09d8b6a",
-      "description" : "Trial job and run created for the pipeline: UpdDimProduct",
+      "asset_ref" : "51e583b3-d01c-4db8-8d5f-af337d0887ec",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "sub_type" : "oflow_trial_run",
@@ -19,7 +18,6 @@
         "env_variables" : [ ]
       },
       "last_run_time" : "deprecated field",
-      "asset_ref_name" : "UpdDimProduct",
       "asset_ref_type" : "orchestration_flow",
       "last_run_status" : "deprecated field",
       "last_run_initiator" : "deprecated field",

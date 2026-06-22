@@ -1,15 +1,15 @@
 {
   "metadata" : {
     "name" : "LdFactSales.DataStage job",
-    "asset_id" : "354ba536-9b91-4ac4-a217-c7ce4b9b9596",
-    "owner_id" : "1000331066",
+    "asset_id" : "7aebc49f-c674-4026-9305-4b4437a63217",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "41ae353e-03c2-4080-93bd-70beb05ba0d1",
+      "asset_ref" : "603b09b2-cc75-4390-ab98-84ff0273e54b",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "flow_limits" : {

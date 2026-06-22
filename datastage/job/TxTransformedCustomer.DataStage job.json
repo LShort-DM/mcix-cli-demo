@@ -1,18 +1,17 @@
 {
   "metadata" : {
     "name" : "TxTransformedCustomer.DataStage job",
-    "asset_id" : "935dc7a1-7293-4af6-a8a9-e167d9bd5125",
-    "owner_id" : "1000331066",
+    "asset_id" : "26dfc62a-38d3-4491-8fae-e24cbdaeff8d",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "6e46ebbb-9ecf-4c43-8153-cb3524e791a9",
+      "asset_ref" : "7387c9e5-fcee-4d3c-adaf-18393a707119",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_id" : "ba5a0fbd-a6e1-4a5b-b88d-4967a465bb8f",
-        "env_type" : "data_intg_flow",
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },

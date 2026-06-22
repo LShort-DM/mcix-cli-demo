@@ -2,23 +2,21 @@
   "metadata" : {
     "name" : "UpdQuarterlyFinancials.DataStage sequence",
     "description" : "",
-    "asset_id" : "b68b19d2-f799-4811-9721-9422ccd31663",
-    "owner_id" : "1000331066",
+    "asset_id" : "8aa03bba-277a-4a5d-b7f2-8e8397e02243",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "5c5abed5-7f0e-4470-b4da-1ec0c5edfd07",
-      "description" : "",
+      "asset_ref" : "23bcfe44-93a3-44a4-a7f4-5cc058afcb28",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_type" : "orchestration_flow",
+        "env_type" : "",
         "pipeline_id" : "5c5abed5-7f0e-4470-b4da-1ec0c5edfd07",
         "env_variables" : [ ]
       },
       "last_run_time" : "deprecated field",
-      "asset_ref_name" : "UpdQuarterlyFinancials",
       "asset_ref_type" : "orchestration_flow",
       "last_run_status" : "deprecated field",
       "last_run_initiator" : "deprecated field",

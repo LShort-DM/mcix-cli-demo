@@ -1,18 +1,17 @@
 {
   "metadata" : {
     "name" : "UpdateSupplierSurrogateKeys.DataStage job",
-    "asset_id" : "555a3607-4def-4ce2-b89c-033d9b0efdb4",
-    "owner_id" : "1000331066",
+    "asset_id" : "a74a52c2-8825-4426-9488-133c151216c1",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "9a7d5118-f109-4d0a-9874-bc1d632a2deb",
+      "asset_ref" : "65a1d6ee-b9fe-44fd-b5a9-48d511fbae03",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_id" : "ba5a0fbd-a6e1-4a5b-b88d-4967a465bb8f",
-        "env_type" : "data_intg_flow",
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },

@@ -1,18 +1,17 @@
 {
   "metadata" : {
     "name" : "LdRefUSStates.DataStage job",
-    "asset_id" : "ace179bc-20a2-4139-b9a6-cad7d15081ef",
-    "owner_id" : "1000331066",
+    "asset_id" : "75003daf-b7c4-4181-a790-8354c7e61b45",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "df1f5efc-5765-475a-a40e-e9c6eb2f14e8",
+      "asset_ref" : "72b7d9e1-2d91-46c2-b4a4-b943cc4b440b",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_id" : "ba5a0fbd-a6e1-4a5b-b88d-4967a465bb8f",
-        "env_type" : "data_intg_flow",
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },

@@ -6,14 +6,14 @@
       "default_error_policy" : "continue_on_error",
       "parameter_sets" : [ {
         "name" : "psGlobal",
-        "ref" : "4da873ac-c93b-4cae-92af-07758f3ff4c0"
+        "ref" : "0c198c89-ce1f-42b7-ad07-759d79ac7e95"
       }, {
         "name" : "psDatabaseConnect",
-        "ref" : "d4e99c1a-1c73-4f60-8123-0bdac5e94f0f"
+        "ref" : "af8b8547-40f0-4b0c-be6c-cc3b1a9f8387"
       } ],
       "validation" : {
         "valid" : true,
-        "validated_at" : "2026-03-12 05:40:47.389961989 +0000 UTC"
+        "validated_at" : "2026-06-22 19:27:02.757941484 +0000 UTC"
       },
       "variables" : [ ],
       "version" : "12.0"
@@ -50,9 +50,13 @@
       },
       "ui_data" : {
         "asset_metadata" : {
-          "3c74f23c-8590-46e1-b2ab-bb6348f401a7" : {
+          "89ceb97d-3210-43d1-8610-ae29ae8ee47e" : {
+            "name" : "electromart",
+            "project_id" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e"
+          },
+          "9b5648b6-a447-4dd0-9c47-c7c542f44040" : {
             "name" : "TxRegionSalesSummaryDs.DataStage job",
-            "project_id" : "f7ea2345-b49d-489f-b2ec-0669daa3c178",
+            "project_id" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
             "type" : {
               "CPDPath" : {
                 "asset_type" : "job",
@@ -60,10 +64,6 @@
                 "resource_type" : "asset"
               }
             }
-          },
-          "f7ea2345-b49d-489f-b2ec-0669daa3c178" : {
-            "name" : "electromart",
-            "project_id" : "f7ea2345-b49d-489f-b2ec-0669daa3c178"
           }
         },
         "comments" : [ ],
@@ -141,6 +141,9 @@
           },
           "descriptive_name" : "TxRegionSalesSummaryDs",
           "inputs" : [ {
+            "allowed_scopes" : [ "space", "project" ],
+            "description" : "Required. CPD path of the DataStage job to be run.",
+            "human_name" : "DataStage Job",
             "name" : "job",
             "related_asset_type" : "data_intg_flow",
             "source_of_scope" : true,
@@ -160,7 +163,7 @@
               },
               "scopeType" : "project"
             },
-            "value" : "/projects/f7ea2345-b49d-489f-b2ec-0669daa3c178/jobs/3c74f23c-8590-46e1-b2ab-bb6348f401a7"
+            "value" : "/projects/89ceb97d-3210-43d1-8610-ae29ae8ee47e/jobs/9b5648b6-a447-4dd0-9c47-c7c542f44040"
           }, {
             "name" : "error_policy",
             "type" : "ErrorPolicy",
@@ -382,7 +385,7 @@
               "job_param_source" : "job",
               "scopeType" : "project"
             },
-            "value" : "/projects/f7ea2345-b49d-489f-b2ec-0669daa3c178/jobs/76d5377f-7811-4600-a1a4-1fcf28cec757"
+            "value" : "/projects/89ceb97d-3210-43d1-8610-ae29ae8ee47e/jobs/76d5377f-7811-4600-a1a4-1fcf28cec757"
           }, {
             "name" : "error_policy",
             "type" : "ErrorPolicy",

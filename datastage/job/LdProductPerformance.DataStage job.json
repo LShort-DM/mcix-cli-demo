@@ -1,15 +1,15 @@
 {
   "metadata" : {
     "name" : "LdProductPerformance.DataStage job",
-    "asset_id" : "2ea8e614-9dd2-4007-b21e-dc8e24403d13",
-    "owner_id" : "1000331066",
+    "asset_id" : "9a558b8c-e086-48bb-8fc2-0ea553a3f6bd",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "f8c95d60-bb1b-4bb1-a285-2e438a470fad",
+      "asset_ref" : "7bed1953-d086-40d4-8803-0963cb6e373e",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "flow_limits" : {

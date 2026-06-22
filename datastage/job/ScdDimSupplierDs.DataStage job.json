@@ -1,18 +1,17 @@
 {
   "metadata" : {
     "name" : "ScdDimSupplierDs.DataStage job",
-    "asset_id" : "827f2ce8-4b8c-4d23-b731-f1c7d0d30403",
-    "owner_id" : "1000331066",
+    "asset_id" : "947289a8-f0da-4c9b-9db1-73a2ba2ff8c3",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "e99e3e31-d34f-4d72-a036-3c2646942335",
+      "asset_ref" : "9691b2a0-70e7-4ba1-8d58-fe6c90c72045",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_id" : "ba5a0fbd-a6e1-4a5b-b88d-4967a465bb8f",
-        "env_type" : "data_intg_flow",
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },

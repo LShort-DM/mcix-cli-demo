@@ -2,16 +2,15 @@
   "metadata" : {
     "name" : "Trial job - UpdFactFinance",
     "description" : "Trial job and run created for the pipeline: UpdFactFinance",
-    "asset_id" : "2b8d08c5-777a-4b17-aed5-72d6e1c3bbea",
-    "owner_id" : "1000331066",
+    "asset_id" : "f9f8fe22-3d75-4915-a79b-033bd4896005",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "6582c4a7-393c-49c4-bfd6-23d1ec385596",
-      "description" : "Trial job and run created for the pipeline: UpdFactFinance",
+      "asset_ref" : "f258c26d-6e04-449f-af86-bcee663dfc4b",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "sub_type" : "oflow_trial_run",
@@ -19,7 +18,6 @@
         "env_variables" : [ ]
       },
       "last_run_time" : "deprecated field",
-      "asset_ref_name" : "UpdFactFinance",
       "asset_ref_type" : "orchestration_flow",
       "last_run_status" : "deprecated field",
       "last_run_initiator" : "deprecated field",

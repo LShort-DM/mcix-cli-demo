@@ -6,14 +6,14 @@
       "default_error_policy" : "continue_on_error",
       "parameter_sets" : [ {
         "name" : "psGlobal",
-        "ref" : "4da873ac-c93b-4cae-92af-07758f3ff4c0"
+        "ref" : "0c198c89-ce1f-42b7-ad07-759d79ac7e95"
       }, {
         "name" : "psDatabaseConnect",
-        "ref" : "d4e99c1a-1c73-4f60-8123-0bdac5e94f0f"
+        "ref" : "af8b8547-40f0-4b0c-be6c-cc3b1a9f8387"
       } ],
       "validation" : {
         "valid" : true,
-        "validated_at" : "2026-03-12 05:29:33.90943906 +0000 UTC"
+        "validated_at" : "2026-06-22 19:27:07.264705676 +0000 UTC"
       },
       "variables" : [ ],
       "version" : "12.0"
@@ -40,31 +40,31 @@
       },
       "ui_data" : {
         "asset_metadata" : {
-          "15bb793a-6d97-4858-afa8-6cb954fa632f" : {
-            "name" : "LdStgSupplier.DataStage job",
-            "project_id" : "f7ea2345-b49d-489f-b2ec-0669daa3c178",
-            "type" : {
-              "CPDPath" : {
-                "asset_type" : "job",
-                "path_type" : "resource",
-                "resource_type" : "asset"
-              }
-            }
-          },
-          "827f2ce8-4b8c-4d23-b731-f1c7d0d30403" : {
-            "name" : "ScdDimSupplierDs.DataStage job",
-            "project_id" : "f7ea2345-b49d-489f-b2ec-0669daa3c178",
-            "type" : {
-              "CPDPath" : {
-                "asset_type" : "job",
-                "path_type" : "resource",
-                "resource_type" : "asset"
-              }
-            }
-          },
-          "f7ea2345-b49d-489f-b2ec-0669daa3c178" : {
+          "89ceb97d-3210-43d1-8610-ae29ae8ee47e" : {
             "name" : "electromart",
-            "project_id" : "f7ea2345-b49d-489f-b2ec-0669daa3c178"
+            "project_id" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e"
+          },
+          "947289a8-f0da-4c9b-9db1-73a2ba2ff8c3" : {
+            "name" : "ScdDimSupplierDs.DataStage job",
+            "project_id" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "job",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
+          },
+          "c4c63eea-9e4e-4dd1-a9ff-bc66d04e6f06" : {
+            "name" : "LdStgSupplier.DataStage job",
+            "project_id" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "job",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
           }
         },
         "comments" : [ ],
@@ -143,6 +143,9 @@
           },
           "descriptive_name" : "LdStgSupplier",
           "inputs" : [ {
+            "allowed_scopes" : [ "space", "project" ],
+            "description" : "Required. CPD path of the DataStage job to be run.",
+            "human_name" : "DataStage Job",
             "name" : "job",
             "related_asset_type" : "data_intg_flow",
             "source_of_scope" : true,
@@ -162,7 +165,7 @@
               },
               "scopeType" : "project"
             },
-            "value" : "/projects/f7ea2345-b49d-489f-b2ec-0669daa3c178/jobs/15bb793a-6d97-4858-afa8-6cb954fa632f"
+            "value" : "/projects/89ceb97d-3210-43d1-8610-ae29ae8ee47e/jobs/c4c63eea-9e4e-4dd1-a9ff-bc66d04e6f06"
           }, {
             "name" : "error_policy",
             "type" : "ErrorPolicy",
@@ -347,6 +350,9 @@
           },
           "descriptive_name" : "ScdDimSupplierDs",
           "inputs" : [ {
+            "allowed_scopes" : [ "space", "project" ],
+            "description" : "Required. CPD path of the DataStage job to be run.",
+            "human_name" : "DataStage Job",
             "name" : "job",
             "related_asset_type" : "data_intg_flow",
             "source_of_scope" : true,
@@ -366,7 +372,7 @@
               },
               "scopeType" : "project"
             },
-            "value" : "/projects/f7ea2345-b49d-489f-b2ec-0669daa3c178/jobs/827f2ce8-4b8c-4d23-b731-f1c7d0d30403"
+            "value" : "/projects/89ceb97d-3210-43d1-8610-ae29ae8ee47e/jobs/947289a8-f0da-4c9b-9db1-73a2ba2ff8c3"
           }, {
             "name" : "error_policy",
             "type" : "ErrorPolicy",
@@ -627,7 +633,7 @@
               "job_param_source" : "job",
               "scopeType" : "project"
             },
-            "value" : "/projects/f7ea2345-b49d-489f-b2ec-0669daa3c178/jobs/8530d979-a10f-4b53-a41f-5230d7b708e4"
+            "value" : "/projects/89ceb97d-3210-43d1-8610-ae29ae8ee47e/jobs/8530d979-a10f-4b53-a41f-5230d7b708e4"
           }, {
             "name" : "error_policy",
             "type" : "ErrorPolicy",

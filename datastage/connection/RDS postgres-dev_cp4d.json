@@ -2067,19 +2067,17 @@
   },
   "datasource_type" : "0ca92c3d-0e46-3b42-a573-77958d53c9be",
   "name" : "RDS postgres-dev_cp4d",
+  "flags" : [ "parameterized" ],
   "rov" : {
     "mode" : 0,
     "member_roles" : {
-      "1000331066" : {
+      "1000331062" : {
         "roles" : [ "OWNER" ],
-        "user_iam_id" : "1000331066"
+        "user_iam_id" : "1000331062"
       }
     }
   },
   "description" : "connection to dev database tables",
-  "directory_asset" : {
-    "path" : "e6b10f0b-3b56-4f63-a1a9-7125193bf025"
-  },
   "properties" : {
     "database" : "dev_cp4d",
     "dsn_type" : "PostgreSQL",
@@ -2090,6 +2088,5 @@
     "cas_lite_auth_header" : "",
     "username" : "{dsmenc}QnbGmCvR2vElxqwGgRU0+A=="
   },
-  "data_source_definition_searchable" : "postgres-dev.cohja0w6kdrg.ap-southeast-2.rds.amazonaws.com|5432|dev_cp4d",
   "origin_country" : "us"
 }

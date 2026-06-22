@@ -1,15 +1,15 @@
 {
   "metadata" : {
     "name" : "LdRegionSalesSummary.DataStage job",
-    "asset_id" : "76d5377f-7811-4600-a1a4-1fcf28cec757",
-    "owner_id" : "1000331066",
+    "asset_id" : "473ecb7d-3276-4cfe-9ec6-8c746c1299d8",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "b8e06b47-7c50-4ac4-8b5c-ab15bdb3f848",
+      "asset_ref" : "35c3dc11-e7e3-4df3-8e8c-723d81098cfe",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "flow_limits" : {

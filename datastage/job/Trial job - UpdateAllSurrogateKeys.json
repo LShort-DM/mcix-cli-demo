@@ -2,16 +2,15 @@
   "metadata" : {
     "name" : "Trial job - UpdateAllSurrogateKeys",
     "description" : "Trial job and run created for the pipeline: UpdateAllSurrogateKeys",
-    "asset_id" : "9d4bc1fb-9475-47c6-9c16-b90b5ca9857a",
-    "owner_id" : "1000331066",
+    "asset_id" : "4f8d3bd1-533f-4be9-a723-295a43f8bcf4",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "05a7b6cb-3fe1-4382-a8b2-983449c88540",
-      "description" : "Trial job and run created for the pipeline: UpdateAllSurrogateKeys",
+      "asset_ref" : "8e32f83e-4c34-4a9f-91e0-a463fe5ee8d9",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "sub_type" : "oflow_trial_run",
@@ -19,7 +18,6 @@
         "env_variables" : [ ]
       },
       "last_run_time" : "deprecated field",
-      "asset_ref_name" : "UpdateAllSurrogateKeys",
       "asset_ref_type" : "orchestration_flow",
       "last_run_status" : "deprecated field",
       "last_run_initiator" : "deprecated field",

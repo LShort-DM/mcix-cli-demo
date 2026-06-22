@@ -1,18 +1,17 @@
 {
   "metadata" : {
     "name" : "TxRegionSalesSummaryDs_container.DataStage job",
-    "asset_id" : "8d443561-0c5a-4c8a-adea-19c60f81b971",
-    "owner_id" : "1000331066",
+    "asset_id" : "8ffe24a9-93f0-49a8-8816-dbe0a60ae96a",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "a24bf4c3-950d-481b-8aee-250c5588f951",
+      "asset_ref" : "63cccb4c-387f-4cfb-8dcd-80f8f38bdd9b",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_id" : "ba5a0fbd-a6e1-4a5b-b88d-4967a465bb8f",
-        "env_type" : "data_intg_flow",
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },

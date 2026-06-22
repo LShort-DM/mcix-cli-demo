@@ -2,23 +2,21 @@
   "metadata" : {
     "name" : "UpdRegionSalesSummary.DataStage sequence",
     "description" : "",
-    "asset_id" : "f48b5619-3cbf-488c-aac0-d781d036e445",
-    "owner_id" : "1000331066",
+    "asset_id" : "ace512a6-3c1d-418f-8f5e-dcfd3d164527",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "22f2fe47-3ce3-4475-99a0-8572815cee4a",
-      "description" : "",
+      "asset_ref" : "4872f433-9be4-42b0-9762-b4d0b13297ce",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_type" : "orchestration_flow",
+        "env_type" : "",
         "pipeline_id" : "22f2fe47-3ce3-4475-99a0-8572815cee4a",
         "env_variables" : [ ]
       },
       "last_run_time" : "deprecated field",
-      "asset_ref_name" : "UpdRegionSalesSummary",
       "asset_ref_type" : "orchestration_flow",
       "last_run_status" : "deprecated field",
       "last_run_initiator" : "deprecated field",

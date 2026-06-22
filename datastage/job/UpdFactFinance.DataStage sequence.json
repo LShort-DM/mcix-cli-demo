@@ -2,23 +2,21 @@
   "metadata" : {
     "name" : "UpdFactFinance.DataStage sequence",
     "description" : "",
-    "asset_id" : "bcbd4f02-cdbf-4f17-ae6d-de1ceefd52b2",
-    "owner_id" : "1000331066",
+    "asset_id" : "1b7b01c4-4c24-4508-9178-97f6d6620313",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "6582c4a7-393c-49c4-bfd6-23d1ec385596",
-      "description" : "",
+      "asset_ref" : "f258c26d-6e04-449f-af86-bcee663dfc4b",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_type" : "orchestration_flow",
+        "env_type" : "",
         "pipeline_id" : "6582c4a7-393c-49c4-bfd6-23d1ec385596",
         "env_variables" : [ ]
       },
       "last_run_time" : "deprecated field",
-      "asset_ref_name" : "UpdFactFinance",
       "asset_ref_type" : "orchestration_flow",
       "last_run_status" : "deprecated field",
       "last_run_initiator" : "deprecated field",

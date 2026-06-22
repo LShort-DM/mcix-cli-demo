@@ -1,15 +1,15 @@
 {
   "metadata" : {
     "name" : "LdQuarterlyFinancials.DataStage job",
-    "asset_id" : "c864b814-7486-4912-8eda-c545b049ab04",
-    "owner_id" : "1000331066",
+    "asset_id" : "6fc20efb-f10f-415c-9df5-d7781aa3298a",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "5164c59e-314c-4030-988a-48c513b33c28",
+      "asset_ref" : "e6745d26-a715-4449-a1b1-222fd8b2d943",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
         "env_type" : "",
         "flow_limits" : {

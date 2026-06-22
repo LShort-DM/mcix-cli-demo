@@ -1,18 +1,17 @@
 {
   "metadata" : {
     "name" : "TxProductPerformanceDs.DataStage job",
-    "asset_id" : "1ebc7086-3984-422b-89b2-d66c24eff422",
-    "owner_id" : "1000331066",
+    "asset_id" : "1e2a73b3-f006-4ba5-bd13-52b3888c7579",
+    "owner_id" : "1000331062",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "abf1276a-f2d1-4a82-a820-0135bc800efe",
+      "asset_ref" : "113e982d-4c5d-489d-9c21-1b8c27dd1117",
       "schedule_id" : "",
-      "project_name" : "electromart",
+      "project_name" : "mcix-cli-demo",
       "configuration" : {
-        "env_id" : "ba5a0fbd-a6e1-4a5b-b88d-4967a465bb8f",
-        "env_type" : "data_intg_flow",
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },

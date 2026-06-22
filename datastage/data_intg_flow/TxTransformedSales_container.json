@@ -32,7 +32,9 @@
       } ],
       "op" : "ODBCConnectorPX",
       "connection" : {
-        "ref" : "72f937ae-333f-4dbe-a518-1598956e3868",
+        "ref" : "00db50b9-612c-430a-a52e-bd265e837d80",
+        "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
+        "name" : "RDS postgres-dev_cp4d",
         "properties" : {
           "currentOutputLinkType" : "PRIMARY",
           "session.isolation_level" : "read_uncommitted",
@@ -56,8 +58,7 @@
           "node_count" : 1,
           "enable_quoted_i_ds" : false,
           "sql.select_statement.read_statement_from_file" : false
-        },
-        "name" : "RDS postgres-dev_cp4d"
+        }
       },
       "id" : "b0822901-881d-4765-b3c4-e44185226280",
       "type" : "binding",
@@ -321,7 +322,9 @@
       } ],
       "op" : "ODBCConnectorPX",
       "connection" : {
-        "ref" : "72f937ae-333f-4dbe-a518-1598956e3868",
+        "ref" : "00db50b9-612c-430a-a52e-bd265e837d80",
+        "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
+        "name" : "RDS postgres-dev_cp4d",
         "properties" : {
           "currentOutputLinkType" : "REFERENCE",
           "sql.select_statement.tables.table" : "",
@@ -348,8 +351,7 @@
           "generate_sql" : false,
           "transaction.record_count" : 2000,
           "enable_quoted_i_ds" : false
-        },
-        "name" : "RDS postgres-dev_cp4d"
+        }
       },
       "id" : "5dc94185-cefe-4e2b-8ffa-feb42c0f4c26",
       "type" : "binding",
@@ -872,7 +874,9 @@
         }
       } ],
       "connection" : {
-        "ref" : "72f937ae-333f-4dbe-a518-1598956e3868",
+        "ref" : "00db50b9-612c-430a-a52e-bd265e837d80",
+        "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
+        "name" : "RDS postgres-dev_cp4d",
         "properties" : {
           "currentOutputLinkType" : "PRIMARY",
           "table_action.generate_truncate_statement" : true,
@@ -902,8 +906,7 @@
           "transaction.record_count" : 2000,
           "enable_quoted_i_ds" : false,
           "table_action.generate_truncate_statement.fail_on_error" : true
-        },
-        "name" : "RDS postgres-dev_cp4d"
+        }
       },
       "id" : "437051da-591b-4e11-ba7c-30143283c216",
       "type" : "binding",
@@ -1307,7 +1310,9 @@
       } ],
       "op" : "ODBCConnectorPX",
       "connection" : {
-        "ref" : "72f937ae-333f-4dbe-a518-1598956e3868",
+        "ref" : "00db50b9-612c-430a-a52e-bd265e837d80",
+        "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
+        "name" : "RDS postgres-dev_cp4d",
         "properties" : {
           "currentOutputLinkType" : "PRIMARY",
           "session.isolation_level" : "read_uncommitted",
@@ -1331,8 +1336,7 @@
           "node_count" : 1,
           "enable_quoted_i_ds" : false,
           "sql.select_statement.read_statement_from_file" : false
-        },
-        "name" : "RDS postgres-dev_cp4d"
+        }
       },
       "id" : "3f958ecc-d734-4243-886b-5c0edbcf19bb",
       "type" : "binding",
@@ -1373,10 +1377,12 @@
     "id" : "pxOsh"
   } ],
   "external_paramsets" : [ {
-    "ref" : "4da873ac-c93b-4cae-92af-07758f3ff4c0",
+    "ref" : "0c198c89-ce1f-42b7-ad07-759d79ac7e95",
+    "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
     "name" : "psGlobal"
   }, {
-    "ref" : "d4e99c1a-1c73-4f60-8123-0bdac5e94f0f",
+    "ref" : "af8b8547-40f0-4b0c-be6c-cc3b1a9f8387",
+    "project_ref" : "89ceb97d-3210-43d1-8610-ae29ae8ee47e",
     "name" : "psDatabaseConnect"
   } ],
   "json_schema" : "https://api.dataplatform.ibm.com/schemas/common-pipeline/pipeline-flow/pipeline-flow-v3-schema.json",
