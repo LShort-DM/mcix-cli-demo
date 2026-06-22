@@ -137,7 +137,7 @@
         "datastage" : { },
         "ui_data" : {
           "image" : "/data-intg/flows/graphics/palette/PxCopy.svg",
-          "description" : "misc edit for mcix tutorial",
+          "description" : "another misc edit for mcix tutorial",
           "x_pos" : 332.64,
           "label" : "cpDailysalessummary",
           "y_pos" : 190.07999999999998
